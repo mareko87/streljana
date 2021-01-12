@@ -1,6 +1,6 @@
 /*
 SQLyog Community v13.1.6 (64 bit)
-MySQL - 10.4.11-MariaDB : Database - domaci
+MySQL - 10.4.11-MariaDB : Database - zadatak1
 *********************************************************************
 */
 
@@ -71,9 +71,9 @@ CREATE TABLE `trajanje` (
 /*Data for the table `trajanje` */
 
 insert  into `trajanje`(`trajanjeID`,`trajanje`,`dodatakCeni`) values 
-(1,'30 minuta',0),
-(2,'45 minuta',0),
-(3,'60 minuta',1000);
+(1,'30 minuta',1000),
+(2,'45 minuta',500),
+(3,'60 minuta',0);
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
